@@ -1,3 +1,4 @@
+import 'package:emart_app/controller/auth_controller.dart';
 import 'package:get/get.dart';
 
 import '../../consts/consts.dart';
@@ -15,6 +16,7 @@ class SignupScreen extends StatefulWidget {
 
 class _SignupScreenState extends State<SignupScreen> {
   bool? isCheck = false;
+  var controller = Get.put(AuthController());
   @override
   Widget build(BuildContext context) {
     return bgWidget(

@@ -56,3 +56,7 @@ const video = 'Video',
     returnpolicy = 'Return Policy',
     supportpolicy = 'Support Policy',
     productmayyoulike = 'Products you may also like';
+
+const wishlist = 'My Wishlist',
+order = 'My Orders',
+message ='Messages';
