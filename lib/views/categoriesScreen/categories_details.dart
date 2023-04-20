@@ -1,4 +1,5 @@
 import 'package:emart_app/consts/consts.dart';
+import 'package:emart_app/controller/prodrct_controller.dart';
 import 'package:emart_app/widgets_comman/bg_widgets.dart';
 import 'package:get/get.dart';
 
@@ -10,6 +11,7 @@ class CatagoryDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var controller = Get.find<ProductController>();
     return bgWidget(
         child: Scaffold(
       appBar: AppBar(
@@ -24,8 +26,8 @@ class CatagoryDetails extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: List.generate(
-                    6,
-                    (index) => "Baby Clothig"
+                    controller.subcat.length,
+                    (index) => "${controller.subcat[index]}"
                         .text
                         .size(12)
                         .fontFamily(semibold)

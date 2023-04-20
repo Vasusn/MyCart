@@ -25,14 +25,14 @@ const categoriesList = [
   furniture
 ];
 const categoriesImg = [
+  imgS1,
   imgFc1,
   imgFc2,
   imgFc3,
   imgFc4,
   imgFc5,
+  imgS11,
   imgFc6,
-  imgFc7,
-  imgFc8,
   imgFc9
 ];
 
@@ -44,5 +44,5 @@ const ItemDetailsButtonsList = [
   supportpolicy
 ];
 
-const profileButtonList = [order,wishlist,message];
-const profileButtonIcon = [icOrder,icOrder,icMessages];
+const profileButtonList = [order, wishlist, message];
+const profileButtonIcon = [icOrder, icOrder, icMessages];

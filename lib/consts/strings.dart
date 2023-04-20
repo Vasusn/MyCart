@@ -13,6 +13,8 @@ const retypepass = 'Retype Password';
 // const retypepasshint = 'Retype Password';
 const forgotpassword = "Forgot Password";
 const login = "Log in";
+const loggein = "Logged in successfully";
+const loggeout= "Logged out successfully";
 const signup = "Sign up";
 const createNewAccount = "or, create a new account.";
 const loginwith = "Login in with";
@@ -59,4 +61,4 @@ const video = 'Video',
 
 const wishlist = 'My Wishlist',
 order = 'My Orders',
-message ='Messages';
+message ='Messages',oldpass = "Old Password",newpass="New Password";
