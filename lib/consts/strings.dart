@@ -14,7 +14,7 @@ const retypepass = 'Retype Password';
 const forgotpassword = "Forgot Password";
 const login = "Log in";
 const loggein = "Logged in successfully";
-const loggeout= "Logged out successfully";
+const loggeout = "Logged out successfully";
 const signup = "Sign up";
 const createNewAccount = "or, create a new account.";
 const loginwith = "Login in with";
@@ -42,14 +42,14 @@ const search = "Search anything....",
     topcategorirs = "Top Categories",
     featuredCategories = "Featured Categories";
 
-const womanclothing = 'Woman Clothing',
-    manclothingfaction = 'Man clothing & Faction',
-    compAccsee = 'Computer & Accessories',
+const womanclothing = 'Women Dress',
+    manclothingfaction = 'Men Clothing & Fashion',
+    compAccsee = 'Computer & Accessiories',
     autoMobile = 'Automobile',
-    kidstoy = 'Kids & Toy',
+    kidstoy = 'Kids & Toys',
     sport = 'Sports',
     jewelery = 'Jewelery',
-    cellPhone = 'Cell Phone',
+    cellPhone = 'Cellphone & Tab',
     furniture = 'Furniture';
 
 const video = 'Video',
@@ -60,5 +60,9 @@ const video = 'Video',
     productmayyoulike = 'Products you may also like';
 
 const wishlist = 'My Wishlist',
-order = 'My Orders',
-message ='Messages',oldpass = "Old Password",newpass="New Password";
+    order = 'My Orders',
+    message = 'Messages',
+    oldpass = "Old Password",
+    newpass = "New Password";
+
+const paypal = 'Paypal',paytm = 'Paytm',cod ='Case on delivery';

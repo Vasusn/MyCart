@@ -14,7 +14,7 @@ const featuredTitle1 = [womanDress, girlsDress, girlswatch];
 const featuredTitle2 = [boyglass, mobilephone, tshirt];
 
 const categoriesList = [
-  womanDress,
+  womanclothing,
   manclothingfaction,
   compAccsee,
   autoMobile,
@@ -46,3 +46,6 @@ const ItemDetailsButtonsList = [
 
 const profileButtonList = [order, wishlist, message];
 const profileButtonIcon = [icOrder, icOrder, icMessages];
+
+const paymentMethodImg = [imgPaypal, imgPaytm, imgCod];
+const paymentMethod = [paypal, paytm, cod];
